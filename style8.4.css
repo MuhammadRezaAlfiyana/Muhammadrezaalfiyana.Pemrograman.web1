@@ -1,0 +1,38 @@
+body{padding:0;
+    margin:0
+  }
+  .container{
+   display: flex;
+   height: 100vh;
+  }
+  .main{
+   display: flex;
+  
+  }
+  .header,.footer{
+   height: 20vh;
+   background: rgb(140, 172, 240);
+   padding: 15px;
+  }
+  .article, .asside{
+   height: 60vh;
+   padding: 15px;
+  }
+  .nav{
+   width: 20vh;
+   height: 110vh;
+   background: pink;
+  }
+  .konten{
+   width: 100%;
+  }
+  .article{
+   width: 70%;
+  }
+  .aside{
+   width: 30%;
+   background: rgb(0, 255, 136);
+  }
+  .p15{
+   padding: 15px;
+  }
