@@ -1,0 +1,46 @@
+/* selector kombinasi */
+body{
+    background-color: rgb(147, 255, 179);
+}
+#header{
+    background-color: burlywood;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+#header h1{
+    color: blue;
+}
+#header blockquote{
+    background-color: yellow;
+    border: 2px dotted;
+}
+.menu ul{
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.gambar {
+    text-align: center;
+}
+.gambar img{
+    width: 20%;
+}
+
+.koleksi {
+    text-align: center;
+}
+.koleksi img{
+    width: 20%;
+}
+
+.fp::first-letter{
+    color: brown;
+    font-size: 40px;
+}
+

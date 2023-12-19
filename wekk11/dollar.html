@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dollar ke Rupiah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h2> Menghitung Dollar ke Rupiah</h2>
+        <label for="uangDollar">Jumlah uang dalam dollar $:</label>
+        <input type="number" id="uangDollar" placeholder="Masukkan jumlah uang dalam dollar">
+        <button onclick="konversi()">Hitung</button>
+
+        <p id="hasil"></p>
+    </div>
+
+    <script>
+        function konversi() {
+            // Ambil nilai uang dalam dollar dari input
+            var uangDollar = parseFloat(document.getElementById('uangDollar').value);
+
+            // Nilai kurs dollar ke rupiah
+            var kursDollar = 14650;
+
+            // Hitung nilai dalam rupiah
+            var nilaiRupiah = uangDollar * kursDollar;
+
+            // Tampilkan hasil
+            document.getElementById('hasil').innerHTML = 'Nilai dalam rupiah: Rp' + nilaiRupiah.toFixed(2);
+        }
+    </script>
+
+</body>
+</html>

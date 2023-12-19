@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+.box:nth-child(1){
+    width: 150px;
+    background-color: gold;
+}
+.box{
+    border: solid;
+    background-color: rgb(255, 123, 0);
+    justify-content: space-around;
+    height: 80px;
+    width: 86%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.kotak{
+    height: 465px;
+    width: 150px;
+    border: solid;
+}
+.item-1{
+    background-color:rgb(43, 226, 83);
+}
+.item-2{
+    background-color: bisque;
+    width: 74%;
+}
+.item-3{
+    background-color: rgb(65, 170, 170);
+}
+.kubus{
+    border: solid;
+    background-color: rgb(42, 71, 165);
+    justify-content: space-around;
+    height: 80px;
+    width: 99%;
+}
